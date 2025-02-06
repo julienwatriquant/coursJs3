@@ -53,7 +53,7 @@ btn2.addEventListener("click" , () =>{
  // dans ce cas nous pourrons supprimer n'importe quel éléments du dom en cliquant dessus
 
  document.body.addEventListener("click" ,(e) =>{
-    e.target.remove();
+    e.target.remove(); // dans  cas si nous clickons  le body tout s'éffaçera
  });
 
 //  document.body.addEventListener("click" ,(e) =>{
@@ -106,5 +106,10 @@ btn2.addEventListener("click" , () =>{
 
                             // history
 
-   // console.log(window.history);
-     //   window.history.back();
+   // console.log(window.history);  consulter l'historique
+     //   window.history.back(); cela me renvoit sur la page arriere
+     //  history.go(-2); permet de revenir deux pages en arriere
+
+    //-----------------------------------------------------------------------------------------------------
+
+    // setProperty
